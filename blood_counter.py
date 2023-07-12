@@ -13,9 +13,12 @@ xml_list = glob.glob("*.xml")
 curr_date = str(datetime.date.today())
 filename = str(datetime.datetime.now())[:19]
 
+#to make it work on windows, need to replace colons in the filename
+filename = filename.replace(":", "-")
+
 #Create the output directory with the current date if it doesn't exist
 if os.path.exists("output/" + curr_date):
-    print("folder exists")
+    pass
 elif os.path.exists("output/"):
     os.mkdir("output/" + curr_date)
 else:
@@ -36,7 +39,7 @@ else:
 
 #iterate over the xml files in the current directory and convert them to json files
 for item in xml_list:
-    with open(item, 'r') as myfile:
+    with open(item, 'r', encoding="utf-8") as myfile:
         obj = xmltodict.parse(myfile.read())
         file_id = obj["lab-result"]["@id"]
 
