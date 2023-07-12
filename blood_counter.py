@@ -8,6 +8,8 @@ import shutil
 
 #loads up all xml files in the root directory to be converted to a csv file
 xml_list = glob.glob("*.xml")
+if len(xml_list) == 0:
+    quit()
 
 #create the current date and filename to save the .csv file under
 curr_date = str(datetime.date.today())
