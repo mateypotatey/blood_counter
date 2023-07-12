@@ -82,5 +82,6 @@ shutil.rmtree("temp_jsons")
 
 #move the processed xml files to the "processed" folder so the root directory is empty again
 for item in xml_list:
-    shutil.move(item, "processed/")
+    shutil.copy(item, "processed/")
+    os.remove(item)
 
