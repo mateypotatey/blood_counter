@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lab-result id="613" device="AbcPlus" version="1.0">
+  <date>2023-07-11T16:34:31</date>
+  <patient-no>3811 CTRL</patient-no>
+  <sample-no>AUTOSID505</sample-no>
+  <annotation>Rex, MIC, SCH, QCi</annotation>
+  <device-description>scil Vet abc Plus⁺</device-description>
+  <results>
+    <param>
+      <name>WBC</name>
+      <value>11</value>
+      <unit>10^3/mm3</unit>
+      <histogram>
+        <bitmap-data>AAAAAAAAAAAAAAAAAAAAAAAAAAACCBMlOlBphqK82N/axLmol4R1al9SRTs1Mi0qJyQjIyUjHhwcGxgbHh0YFRcaGRkXFBMUFRUREA4PDw8OCgkJCgoMCggGBwgIBwYFBQUFBgUFBAMDAgMDAwIDAwQDBAQDAgEBAwMDAwIBAQA=</bitmap-data>
+        <thresholds>0000603135</thresholds>
+      </histogram>
+      <references>
+        <species id="2">
+          <min>6</min>
+          <max>12</max>
+        </species>
+        <species id="3">
+          <min>5</min>
+          <max>11</max>
+        </species>
+        <species id="4">
+          <min>5</min>
+          <max>10</max>
+        </species>
+        <species id="5">
+          <min>7</min>
+          <max>10</max>
+        </species>
+        <species id="6">
+          <min>3.5</min>
+          <max>10</max>
+        </species>
+        <species id="7">
+          <min>3.5</min>
+          <max>10</max>
+        </species>
+        <species id="8">
+          <min>6.3</min>
+          <max>10</max>
+        </species>
+        <species id="10">
+          <min>3</min>
+          <max>15</max>
+        </species>
+        <species id="11">
+          <min>3</min>
+          <max>15</max>
+        </species>
+        <species id="14">
+          <min>2.5</min>
+          <max>5.5</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>LYM#</name>
+      <value>8.1</value>
+      <unit>10^3/mm3</unit>
+      <flag>H</flag>
+      <references>
+        <species id="2">
+          <min>1</min>
+          <max>3.6</max>
+        </species>
+        <species id="3">
+          <min>1</min>
+          <max>4</max>
+        </species>
+        <species id="4">
+          <min>1.5</min>
+          <max>4</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>3.3</min>
+          <max>7</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0.3</min>
+          <max>1.3</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>MON#</name>
+      <value>0.3</value>
+      <unit>10^3/mm3</unit>
+      <references>
+        <species id="2">
+          <min>0</min>
+          <max>0.5</max>
+        </species>
+        <species id="3">
+          <min>0</min>
+          <max>0.5</max>
+        </species>
+        <species id="4">
+          <min>0</min>
+          <max>0.4</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>0</min>
+          <max>0.4</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0</min>
+          <max>0.2</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>GRA#</name>
+      <value>2.6</value>
+      <unit>10^3/mm3</unit>
+      <references>
+        <species id="2">
+          <min>3</min>
+          <max>10</max>
+        </species>
+        <species id="3">
+          <min>3</min>
+          <max>12</max>
+        </species>
+        <species id="4">
+          <min>3</min>
+          <max>8</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>1.6</min>
+          <max>3.7</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0.4</min>
+          <max>2</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>EOS#</name>
+      <value>0.7</value>
+      <unit>10^3/mm3</unit>
+      <flag>H</flag>
+      <references>
+        <species id="2">
+          <min>0</min>
+          <max>0.6</max>
+        </species>
+        <species id="3">
+          <min>0</min>
+          <max>0.6</max>
+        </species>
+        <species id="4">
+          <min>0</min>
+          <max>0.4</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0</min>
+          <max>0</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>LYM%</name>
+      <value>73.6</value>
+      <unit>%</unit>
+      <references>
+        <species id="2">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="3">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="4">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0</min>
+          <max>0</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>MON%</name>
+      <value>3</value>
+      <unit>%</unit>
+      <references>
+        <species id="2">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="3">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="4">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0</min>
+          <max>0</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>GRA%</name>
+      <value>23.4</value>
+      <unit>%</unit>
+      <references>
+        <species id="2">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="3">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="4">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0</min>
+          <max>0</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>EOS%</name>
+      <value>6.4</value>
+      <unit>%</unit>
+      <flag>H</flag>
+      <references>
+        <species id="2">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="3">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="4">
+          <min>0</min>
+          <max>100</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>0</min>
+          <max>0</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>RBC</name>
+      <value>11.79</value>
+      <unit>10^6/mm3</unit>
+      <histogram>
+        <bitmap-data>AAAAAAAAAAAAAAYOGDlioMbf07yei4JuYVFAOSggGBcRDw4NCwsIBwcGBQQDAwMBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</bitmap-data>
+      </histogram>
+      <references>
+        <species id="2">
+          <min>5.5</min>
+          <max>8.5</max>
+        </species>
+        <species id="3">
+          <min>5</min>
+          <max>10</max>
+        </species>
+        <species id="4">
+          <min>5.5</min>
+          <max>11</max>
+        </species>
+        <species id="5">
+          <min>5.5</min>
+          <max>8</max>
+        </species>
+        <species id="6">
+          <min>3.8</min>
+          <max>5.8</max>
+        </species>
+        <species id="7">
+          <min>3.8</min>
+          <max>5.8</max>
+        </species>
+        <species id="8">
+          <min>5.2</min>
+          <max>6.8</max>
+        </species>
+        <species id="10">
+          <min>5</min>
+          <max>12</max>
+        </species>
+        <species id="11">
+          <min>5</min>
+          <max>12</max>
+        </species>
+        <species id="14">
+          <min>6.5</min>
+          <max>12</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>HGB</name>
+      <value>16.8</value>
+      <unit>g/dl</unit>
+      <references>
+        <species id="2">
+          <min>15</min>
+          <max>20</max>
+        </species>
+        <species id="3">
+          <min>8</min>
+          <max>17</max>
+        </species>
+        <species id="4">
+          <min>9</min>
+          <max>18</max>
+        </species>
+        <species id="5">
+          <min>10</min>
+          <max>13</max>
+        </species>
+        <species id="6">
+          <min>11</min>
+          <max>16.5</max>
+        </species>
+        <species id="7">
+          <min>11</min>
+          <max>16.5</max>
+        </species>
+        <species id="8">
+          <min>11.5</min>
+          <max>15.1</max>
+        </species>
+        <species id="10">
+          <min>11.1</min>
+          <max>18</max>
+        </species>
+        <species id="11">
+          <min>11.1</min>
+          <max>18</max>
+        </species>
+        <species id="14">
+          <min>15</min>
+          <max>18</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>HCT</name>
+      <value>52.6</value>
+      <unit>%</unit>
+      <flag>H</flag>
+      <references>
+        <species id="2">
+          <min>44</min>
+          <max>57</max>
+        </species>
+        <species id="3">
+          <min>27</min>
+          <max>47</max>
+        </species>
+        <species id="4">
+          <min>30</min>
+          <max>50</max>
+        </species>
+        <species id="5">
+          <min>30</min>
+          <max>40</max>
+        </species>
+        <species id="6">
+          <min>35</min>
+          <max>50</max>
+        </species>
+        <species id="7">
+          <min>35</min>
+          <max>50</max>
+        </species>
+        <species id="8">
+          <min>36</min>
+          <max>47</max>
+        </species>
+        <species id="10">
+          <min>36</min>
+          <max>52</max>
+        </species>
+        <species id="11">
+          <min>36</min>
+          <max>52</max>
+        </species>
+        <species id="14">
+          <min>40</min>
+          <max>60</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>MCV</name>
+      <value>45</value>
+      <unit>µm3</unit>
+      <references>
+        <species id="2">
+          <min>60</min>
+          <max>77</max>
+        </species>
+        <species id="3">
+          <min>40</min>
+          <max>55</max>
+        </species>
+        <species id="4">
+          <min>37</min>
+          <max>55</max>
+        </species>
+        <species id="5">
+          <min>45</min>
+          <max>60</max>
+        </species>
+        <species id="6">
+          <min>80</min>
+          <max>97</max>
+        </species>
+        <species id="7">
+          <min>80</min>
+          <max>97</max>
+        </species>
+        <species id="8">
+          <min>65</min>
+          <max>76</max>
+        </species>
+        <species id="10">
+          <min>44</min>
+          <max>69</max>
+        </species>
+        <species id="11">
+          <min>44</min>
+          <max>69</max>
+        </species>
+        <species id="14">
+          <min>45</min>
+          <max>65</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>MCH</name>
+      <value>14.3</value>
+      <unit>pg</unit>
+      <references>
+        <species id="2">
+          <min>17</min>
+          <max>26</max>
+        </species>
+        <species id="3">
+          <min>13</min>
+          <max>17</max>
+        </species>
+        <species id="4">
+          <min>13</min>
+          <max>19</max>
+        </species>
+        <species id="5">
+          <min>16</min>
+          <max>22</max>
+        </species>
+        <species id="6">
+          <min>26.5</min>
+          <max>33.5</max>
+        </species>
+        <species id="7">
+          <min>26.5</min>
+          <max>33.5</max>
+        </species>
+        <species id="8">
+          <min>21.1</min>
+          <max>24.5</max>
+        </species>
+        <species id="10">
+          <min>12</min>
+          <max>24.5</max>
+        </species>
+        <species id="11">
+          <min>12</min>
+          <max>24.5</max>
+        </species>
+        <species id="14">
+          <min>15</min>
+          <max>20</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>MCHC</name>
+      <value>32</value>
+      <unit>g/dl</unit>
+      <references>
+        <species id="2">
+          <min>31</min>
+          <max>38</max>
+        </species>
+        <species id="3">
+          <min>31</min>
+          <max>36</max>
+        </species>
+        <species id="4">
+          <min>31</min>
+          <max>39</max>
+        </species>
+        <species id="5">
+          <min>28</min>
+          <max>36</max>
+        </species>
+        <species id="6">
+          <min>31.5</min>
+          <max>35</max>
+        </species>
+        <species id="7">
+          <min>31.5</min>
+          <max>35</max>
+        </species>
+        <species id="8">
+          <min>29.5</min>
+          <max>33.9</max>
+        </species>
+        <species id="10">
+          <min>21.6</min>
+          <max>42</max>
+        </species>
+        <species id="11">
+          <min>21.6</min>
+          <max>42</max>
+        </species>
+        <species id="14">
+          <min>30</min>
+          <max>34</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>RDW</name>
+      <value>16.1</value>
+      <unit>%</unit>
+      <flag>L</flag>
+      <references>
+        <species id="2">
+          <min>14</min>
+          <max>17</max>
+        </species>
+        <species id="3">
+          <min>17</min>
+          <max>22</max>
+        </species>
+        <species id="4">
+          <min>14</min>
+          <max>20</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>12</min>
+          <max>14.5</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>14</min>
+          <max>17</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>PLT</name>
+      <value>894</value>
+      <unit>10^3/mm3</unit>
+      <flag>H</flag>
+      <histogram>
+        <bitmap-data>AAACCREZICYtMjc+Pz06NjAtKCUhHBoXFBIPDQ0LCggIBwYGBgYGBQUFBQQEAwMDAwMCAgMCAgICAgICAwMDAwMEBQUGBgYHCAkJCgsMDQ4PEhQVFxkdICMnLC80OkBGTFJaYGdvdn2FjJOaoKmyuMDGzNPY39zW0cvEvrWupgA=</bitmap-data>
+        <thresholds>48</thresholds>
+      </histogram>
+      <references>
+        <species id="2">
+          <min>200</min>
+          <max>460</max>
+        </species>
+        <species id="3">
+          <min>180</min>
+          <max>430</max>
+        </species>
+        <species id="4">
+          <min>100</min>
+          <max>400</max>
+        </species>
+        <species id="5">
+          <min>175</min>
+          <max>600</max>
+        </species>
+        <species id="6">
+          <min>150</min>
+          <max>390</max>
+        </species>
+        <species id="7">
+          <min>150</min>
+          <max>390</max>
+        </species>
+        <species id="8">
+          <min>250</min>
+          <max>610</max>
+        </species>
+        <species id="10">
+          <min>140</min>
+          <max>600</max>
+        </species>
+        <species id="11">
+          <min>140</min>
+          <max>600</max>
+        </species>
+        <species id="14">
+          <min>300</min>
+          <max>900</max>
+        </species>
+      </references>
+    </param>
+    <param>
+      <name>MPV</name>
+      <value>6.1</value>
+      <unit>µm3</unit>
+      <references>
+        <species id="2">
+          <min>6.7</min>
+          <max>11.1</max>
+        </species>
+        <species id="3">
+          <min>6.5</min>
+          <max>15</max>
+        </species>
+        <species id="4">
+          <min>6.7</min>
+          <max>11.1</max>
+        </species>
+        <species id="5">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="6">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="7">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="8">
+          <min>5</min>
+          <max>7</max>
+        </species>
+        <species id="10">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="11">
+          <min>0</min>
+          <max>0</max>
+        </species>
+        <species id="14">
+          <min>6.7</min>
+          <max>11.1</max>
+        </species>
+      </references>
+    </param>
+  </results>
+</lab-result>
