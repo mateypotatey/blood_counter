@@ -58,8 +58,7 @@ df = pd.DataFrame(columns=["Sample No", "Patient ID", "WBC", "LYM#", "MON#", "GR
 #iterate over the json list and add each sample to the dataframe
 for item in json_list:
     with open(item) as f:
-        print(f"Sample where it screws up: {item}") #troubleshooting
-        
+              
         my_dict = {}
         data = json.load(f)
 
