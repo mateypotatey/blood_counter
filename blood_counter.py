@@ -58,6 +58,7 @@ df = pd.DataFrame(columns=["Sample No", "Patient ID", "WBC", "LYM#", "MON#", "GR
 #iterate over the json list and add each sample to the dataframe
 for item in json_list:
     with open(item) as f:
+        print(f"Sample where it screws up: {item}") #troubleshooting
         
         my_dict = {}
         data = json.load(f)
@@ -71,8 +72,12 @@ for item in json_list:
         except KeyError:
             my_dict["Patient ID"] = ""
 
+        #Had issue that some samples lacked a value field, which this skips over
         for row in data["lab-result"]["results"]["param"]:
-            my_dict[row["name"]] = row["value"]
+            try:
+                my_dict[row["name"]] = row["value"]
+            except KeyError:
+                my_dict[row["name"]] = "" 
 
         df.loc[len(df)] = my_dict
 
